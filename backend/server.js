@@ -45,7 +45,7 @@ app.post('/calcularfrete',(req,res)=>{
 
     // verifica se o tipoTransporte fornecido existe na tabela de preços
     if(precoPorKm === undefined){
-        return.res.status(400).json({error: "Tipo de transporte inválido"})
+        return res.status(400).json({error: "Tipo de transporte inválido"})
     }
 
 
