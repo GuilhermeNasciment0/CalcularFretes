@@ -20,7 +20,7 @@ app.use(cors())
 
 //objeto (tabela com os preços)
 const precos={
-    bicileta:0.75, //preço por km para bicicleta
+    bicicleta:0.75, //preço por km para bicicleta
     carro:0.25, // preço por km para bicicleta
     drone:1.20 // preço por km para drone
 }
